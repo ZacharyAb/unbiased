@@ -1,0 +1,33 @@
+{
+  "name": "unbiased",
+  "version": "1.0.0",
+  "description": "A website to link to articles from all over the political spectrum, get the full picture.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start:dev": "nodemon ./server/index.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZacharyAb/unbiased.git"
+  },
+  "author": "Zachary Abramson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZacharyAb/unbiased/issues"
+  },
+  "homepage": "https://github.com/ZacharyAb/unbiased#readme",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
